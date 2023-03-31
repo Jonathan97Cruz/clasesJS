@@ -36,14 +36,93 @@ body{
     margin: auto;
     padding: 10px;
     overflow: hidden;
+    max-width: 1000px;
 }
 /*Cajas*/
 .box{
-
+    width: 30%;
+    height: 600px;
+    border: 3px solid #253062;
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
 }
 .box-header{
-
+    background-color: #253062;
+    padding: 10px;
+    text-align: center;
+    padding: 15px 0 ;
+    color: #fff;
 }
 .box-main{
-    
+    text-align: center;
+    padding: 10px;
+
+}
+.box-main__text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-main__input{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    pad: 10px;
+    color: #253062;
+    border: solid #253062;
+    border-radius: 5px;
+}
+.box-main__btn{
+    background-color: #253062;
+    color: #fff;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+.box-main__btn:hover{
+    background-color: #1b2550;
+    cursor: pointer;
+}
+.box-main__btn:active{/*Hace que cambien de color los botones cuando se presionan*/
+    background-color: #4c5580;
+}
+
+/*Web Responsive mediaquery*/
+@media screen and (max-width:1021px){/*Indicar el movimiento*/
+    .figure{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .box{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .box{
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
+}
+@media screen and (max-width:360px) {
+    .box{
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
+    .header-title{
+        font-size: 20px;
+    }
+    .answer p{
+        font-size: 20px;
+    }
 }
