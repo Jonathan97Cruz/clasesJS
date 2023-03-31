@@ -1,0 +1,51 @@
+body{
+    background: #f2f2f2;
+    font-family: Arial;
+}
+
+div{
+    margin: 20px 0;
+}
+
+.btn{
+    background: #530d58;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-style: none;/*Para quitar bordes*/
+
+}
+.btn:hover{
+    opacity: 0.8;/*Pone opacidad*/
+    cursor: pointer;/*Cambia el cursos de flecha a manita*/
+}
+
+.small{
+    font-size: 14px;
+    padding: 10px 15px;    
+}
+
+.mediun{
+    font-size: 16px;
+    padding: 15px 20px;  
+}
+
+.big{
+    font-size: 18px;
+    padding: 20px 25px;    
+}
+
+.azul{
+    background: #246eb9;
+}
+.verde{
+    background: #24b97b;
+}
+.naranja{
+    background: #b98224;
+}
+
+.border-radius{
+    border-radius: 30px;/*Bordes redondeados*/
+}

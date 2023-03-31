@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-transform: lowercase;/*se puede poner todo en mayu o minus*/
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;/*Pone en negritas*/
+    text-indent: 40px;/*Identacion*/
+    line-height: 1.7;/*Genera un espacio entre cada linea*/
+    word-spacing: 10px;/*un espacio por cada palabra*/
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.349);/*Ponerle sombra*/
+}
+
+h1{
+    color: #222fff;
+}
+
+a{
+    text-decoration: none;/*Quita la decoracion*/
+    text-transform: capitalize;/*Pone la primer letra en mayuscula*/
+    font-size: 20px;
+    letter-spacing: 3px;/*Genera espacio por cada letra*/
+}
+
+a:hover{
+    text-decoration: underline;
+}

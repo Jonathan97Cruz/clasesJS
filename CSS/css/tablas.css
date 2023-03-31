@@ -1,0 +1,22 @@
+*{
+    font-family: Arial;
+}
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+th,td{
+    padding: 10px;/*es para el espaciado*/
+}
+
+th{
+    background: #3852fa;
+    color: white;
+}
+tr:hover{
+    background: rgb(191, 189, 189);
+}

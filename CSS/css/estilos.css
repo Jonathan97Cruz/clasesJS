@@ -1,0 +1,32 @@
+*{/*Selector universal*/
+    color: blueviolet;
+}
+
+p{
+    color: red;
+}
+
+.p1{/*Con el . seleccionamos la clase*/
+    color: aqua;
+    font-size: 18px;
+}
+
+h1,h2{
+    color: brown;
+    font-size: 24px;
+}
+
+#subtitulo{/*Seleccionamos el id con #*/
+    color: rgb(228, 22, 22);
+}
+
+h1{
+    color: blue;
+    font-size: 24px;/*tamaño de la letra*/
+    text-align: center; /*Alinea el texto*/
+}
+
+body{
+    background: green;
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de letra*/
+}

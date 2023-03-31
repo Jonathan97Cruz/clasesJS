@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.main{
+    background: #1eba1e;
+    width: 90%;
+    margin: auto;/*Para que se centre*/
+    padding: 10px;
+    overflow: hidden;/*Coloca el contenido dentro de la caja padre*/
+
+}
+.caja{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+}
+.img{
+    float: left;
+    width: auto;
+}
+.text{
+    float: left;
+}
+
+/*Estilos para articulos*/
+.articulo{
+    background: #3fb3f6;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+.articulo h2{
+    text-align: center;
+    padding: 10px;
+}
+.articulo img{
+    float: right;
+}

@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+.menu{
+    background-color: #13a4a4;
+}
+
+.menu-nav{
+    list-style: none;
+}
+.menu-nav__item{
+    display: inline-block;
+}
+.menu-nav__item a{/*Acceder a un elemento dentro de la clase*/
+    color: #ffff;
+    text-decoration: none;
+}
+/*Seudo clases define el estado de un elemento y se ponen con : */
+.menu-nav__item a:hover{/*Cambia el color al pasar el mouse*/
+    color: rgb(227, 20, 20);
+}
+
+.menu-nav__item a:active{/*Activa el color al hacer click*/
+    color: rgb(62, 134, 240);
+}
+
+/*Seudo elemento define el estilo de un elemento y se pone con :: */
+.menu-nav__item a::after{/*Agrega un contenido*/
+    content: " - ";
+}

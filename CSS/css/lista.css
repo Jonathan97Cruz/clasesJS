@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: square;/*disc es el valor por defecto, circle, square*/
+}
+
+ol{
+    list-style: lower-roman;/*decimal es el val por defecto, decimal-leading-zero (01), lower-roman (i)*/
+}
