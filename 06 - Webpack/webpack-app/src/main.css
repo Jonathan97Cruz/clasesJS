@@ -1,0 +1,11 @@
+/*npm install --save-dev css-loader style-loader    instalar en cmd*/
+body{
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+h1{
+    color: #1d2f94;
+}
+img{
+    width: 500px;
+}

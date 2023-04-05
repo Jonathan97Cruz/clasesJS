@@ -1,0 +1,11 @@
+/*
+https://babeljs.io/setup#installation
+npm install --save-dev babel-loader @babel/core
+npm install @babel/preset-env --save-dev
+
+*/
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
