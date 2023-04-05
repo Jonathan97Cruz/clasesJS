@@ -4,7 +4,7 @@ class Person{
     constructor(name, age){
         this.#name = name;
         this.#age = age;
-        this.#methodPrivate();
+        this.#methodPrivate();//metodo estatico
     }
     set setName(name){
         this.#name = name;
